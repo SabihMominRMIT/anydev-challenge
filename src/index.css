@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #fff; /* Remove the double quotes around the color value */
+    margin: 0; /* Reset default margin to ensure full coverage */
+    padding: 0; /* Reset default padding */
+  }
