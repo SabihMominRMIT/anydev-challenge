@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 body {
-    background: #fff; /* Remove the double quotes around the color value */
-    margin: 0; /* Reset default margin to ensure full coverage */
-    padding: 0; /* Reset default padding */
+  background: rgb(243, 244, 246);
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+  }
+
+  .customModal {
+    /* top: 10% !important; */
+    background-color: whitesmoke !important;
+    /* max-width: 500px; */
+    width: 90%;
+    height: 80%;
   }
